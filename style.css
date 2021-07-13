@@ -1,7 +1,9 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-/* common styles or utilities */
+/*---------------------------
+ common styles or utilities 
+ --------------------------*/
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
@@ -22,7 +24,9 @@ main {
     margin-top: 21px;
 }
 
-/* top players styles */
+/*---------------------
+ top players styles 
+ --------------------*/
 .top-players {
     margin-bottom: 30px;
 }
@@ -58,11 +62,13 @@ hr {
     border: 1px solid #D1D1D1;
 }
 
-/* top blog styles */
+/*------------------
+ top blog styles 
+ -----------------*/
 .blogs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid: row gap 26px;
+    grid row gap: 26px;
 }
 
 .blog {
@@ -93,7 +99,9 @@ hr {
     color: #562EFF;
 }
 
-/* courses style */
+/*--------------
+ courses style 
+ --------------*/
 .courses {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -111,7 +119,7 @@ hr {
     justify-content: space-between;
 }
 
-fa-star {
+.fa-star {
     font-size: 12px;
 }
 
@@ -123,8 +131,12 @@ fa-star {
     color: #AEAEAE;
 }
 
-/* Media Queries */
-/* Mobile Devices */
+/*-------------------
+ Media Queries 
+ ------------------*/
+/*------------------
+ Mobile Devices 
+-------------------*/
 @media only screen and (max-width:688px) {
     .container {
         width: 100%;
@@ -141,7 +153,9 @@ fa-star {
     }
 }
 
-/* tablet devices */
+/*------------------
+ tablet devices 
+ -----------------*/
 @media only screen and (min-width: 688px) and (max-width: 992px) {
     .players, .courses {
         grid-template-columns: repeat(2, 1fr);
